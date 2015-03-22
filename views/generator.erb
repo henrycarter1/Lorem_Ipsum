@@ -1,0 +1,7 @@
+<% file = File.open("Lipsum.txt", "r") %>
+<% @v1.times do %>
+<% contents = file.readline %>
+<%= contents %>
+<% end %>
+
+<div><a href="/">Back to main page</a></div>
